@@ -1,0 +1,49 @@
+# Environments & Credentials (CRITICAL)
+# ==========================================
+.env
+.env.local
+.env.*.local
+*.env
+auth.json
+secrets.json
+
+# ==========================================
+# Python Virtual Environments
+# ==========================================
+venv/
+.venv/
+env/
+ENV/
+nbenv/
+.pytest_cache/
+__pycache__/
+*.pyc
+
+# ==========================================
+# Node.js / JavaScript (If using JS frontend or backend)
+# ==========================================
+node_modules/
+/dist
+/build
+.npm
+package-lock.json
+
+# ==========================================
+# Data, Vector DBs, and AI Logs
+# ==========================================
+*.log
+data/
+chroma_db/
+faiss_index/
+.cache/
+.chroma/
+
+# ==========================================
+# Operating System Files
+# ==========================================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+
